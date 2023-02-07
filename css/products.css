@@ -1,7 +1,14 @@
 
+body {
+font-family: sans-serif;
+color: white
+
+}
+
+
 
 #page_header { 
-
+background-color: darkslategrey;
 min-height: 10vh;
 display: grid;
 justify-items: start;
@@ -27,6 +34,18 @@ align-items: center;
 grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
+.articlemain {
+border-style: double;
+background-color: darkslategray;
+    min-height: 80vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    
+}
+
+
 .sectionmain {
     min-height: 80vh;
     display: grid;
@@ -49,5 +68,5 @@ grid-template-columns: repeat(auto-fit, minmax(25% , 1fr));
 img {
     height: 30vh;
     width: 20vw;
- min-width: 250px;
+ min-width: 310px;
 }
