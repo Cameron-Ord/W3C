@@ -5,9 +5,6 @@ color: white
 
 }
 
-p{
-    width: 80%;
-}
 
 a {
     color: blue;
@@ -78,11 +75,17 @@ grid-template-columns: repeat(auto-fit, minmax(25% , 1fr));
 
 }
 
-
-    
-
-img {
-    height: 30vh;
-    width: 20vw;
- min-width: 310px;
-}
+    #section{
+        font-size: 2em;
+        
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        
+        
+        
+        
+        #section:hover{
+        font-size: 65em;
+        }
