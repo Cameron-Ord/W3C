@@ -52,6 +52,10 @@ background-color: darkslategray;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     
 }
+.articlemain>img{
+width: 30vw;
+    height: 30vh;
+}
 
 
 .sectionmain {
